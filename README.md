@@ -3,16 +3,17 @@
 ### converting the wikipeda list of all PSX games into JSON
 
 
-(https://en.wikipedia.org/wiki/List_of_PlayStation_games_(A-L))[https://en.wikipedia.org/wiki/List_of_PlayStation_games_(A-L)]
 
-(https://en.wikipedia.org/wiki/List_of_PlayStation_games_(A-L))[https://en.wikipedia.org/wiki/List_of_PlayStation_games_(A-L)]
+
+https://en.wikipedia.org/wiki/List_of_PlayStation_games_(A-L)
+https://en.wikipedia.org/wiki/List_of_PlayStation_games_(M-Z)
 
 ---
 
 ##### Setup:
 
 ```
-chmod +x 0*
+$ chmod +x 0*
 $ ./00_get_wiki_html_pages.sh
 $ npm install
 $ 01_extractJson.js
